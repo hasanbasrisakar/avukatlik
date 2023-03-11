@@ -29,7 +29,7 @@ body {
 }
 
 .frame1 {
-    width: 100%;
+    width: 90%;
     margin: auto;
     max-width: 1500px;
 }
@@ -197,7 +197,7 @@ a {
     width: 310px;
 }
 
-.tape .frame .card img {
+.tape .frame .card svg  {
     height: 42px;
     margin-right: 10px;
     width: 42px;
@@ -353,10 +353,9 @@ a {
     margin-bottom: 70px;
 }
 
-.bigcard .card img {
+.bigcard .card svg {
     margin-right: 10px;
     width: 42px;
-    height: 42px;
 }
 
 .bigcard .card .text {
@@ -604,17 +603,17 @@ a {
 }
 
 .services .frame .card img {
-    width: 45%;
+    width: 40%;
 }
 
 .services .frame .card .text {
-    width: 50%;
+    width: 45%;
 }
 
 .services .frame .card .text ul li {
     color: #D7B56D;
     opacity: 0.8;
-    font-size: 24px;
+    font-size: 18px;
     list-style: #fff;
 }
 
@@ -629,14 +628,14 @@ a {
     align-items: center;
 }
 
-.services .frame .card .head img {
+.services .frame .card .head svg {
     width: 70px;
 }
 
 .services .frame .card .head h3 {
-    margin: 0 20px;
+    margin: 0 0px;
     color: #223042;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .teams {
@@ -718,11 +717,9 @@ a {
     margin-bottom: 20px;
 }
 
-.communication .card img {
-    border: 1px solid #E0E0E0;
+.communication .card svg {
     padding: 10px;
-    border-radius: 50px;
-    margin-right: 20px;
+    width: 50px;
 }
 
 #telephone img {
@@ -910,7 +907,7 @@ a {
     .services .frame .card .head h3 {
         margin: 0 10px;
         color: #223042;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .services .frame .card .head{
@@ -924,7 +921,7 @@ a {
     .services .frame .card .text ul li {
         color: #D7B56D;
         opacity: 0.8;
-        font-size: 20px;
+        font-size: 2    0px;
         list-style: #fff;
     }
 
@@ -933,7 +930,7 @@ a {
         flex-wrap: wrap-reverse;
     }
 
-    .services .frame .card .head img {
+    .services .frame .card .head svg {
         width: 34px;
         margin-bottom: 0;
     }
@@ -1006,9 +1003,7 @@ a {
         margin-bottom: 20px;
     }
 
-    .communication .card img{
-        margin-right: 10px;
-    }
+
 
     .communication .card p{
         font-size: 11px;
@@ -1086,10 +1081,9 @@ a {
         margin-bottom: 0;
     }
 
-    .bigcard .card img {
+    .bigcard .card svg {
         margin-right: 20px;
         width: 35px;
-        height: 35px;
     }
 
     .bigcard {
@@ -1131,7 +1125,7 @@ a {
         justify-content: left;
     }
 
-    .tape .frame .card img {
+    .tape .frame .card svg {
         margin-right: 20px;
         width: 35px;
         height: 35px;
