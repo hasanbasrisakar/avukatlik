@@ -1192,12 +1192,26 @@ a {
 
     #menuresp {
         display: block;
+        background-color: #FBFAF8;
         position: fixed;
-        width: 100%;
-        top: 95px;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding: 20px;
+        width: calc(100% - 40px);
         z-index: 99999;
         transition: all .5s;
+    }
 
+    .menuresp .menubuton{
+        margin-right: 0rem;
+        margin-top: 1.3rem;
+        text-align: right;
+    }
+    
+    #active{
+        color: #D7B56D;
+        opacity: 0.8;
     }
 
     .back {
@@ -1205,19 +1219,29 @@ a {
         background-color: none;
     }
 
-    #menuresp a {
-
+    .menuresp a {
+        color: #223042;
+        opacity: 0.8;
         transition: all .2s;
         display: inline-block;
-        padding: 20px;
+        padding: 20px 0;
         font-size: 20px;
         background-color: none;
         display: block;
-        text-align: center;
+        border-bottom: 1px solid #E0E0E0;
         transition: all .2s;
         margin: 0;
     }
 
+    #activeson{
+        border: none;
+        color: #D7B56D;
+        opacity: 0.8;
+    }
+
+    #endmenu{
+        border: none;
+    }
 
     .navbar {
         display: none;
