@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: "Euclid Circular B Medium";
+    font-family: "Euclid Circular B Light";
     src: url("fonts/Euclid-Circular-B-Light.ttf");
     font-weight: medium;
 }
@@ -342,24 +342,23 @@ a {
 
 .bigcard {
     color: #fff;
-    width: 280px;
+    width: calc(100% / 5.4);
 }
 
 .workarea .frame .bigcard .card {
-    display: flex;
-    justify-content: space-between;
+
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 70px;
 }
 
 .bigcard .card svg {
-    margin-right: 10px;
+    margin-bottom: 10px;
     width: 42px;
 }
 
 .bigcard .card .text {
-    width: 200px;
+    width: 100%;
 }
 
 .bigcard .card .text h3 {
@@ -370,10 +369,25 @@ a {
 
 .bigcard .card .text p {
     opacity: 0.8;
+    font-weight: 400;
+    font-family: "Euclid Circular B Light";
 }
 
 #down {
     margin-bottom: 0;
+}
+
+#down1 {
+    margin-bottom: 0;
+    width: 170%;
+}
+
+#down1 .text{
+    width: 100%;
+}
+
+#down1 .text p{
+    width: 70%;
 }
 
 .ourteam {
@@ -499,6 +513,10 @@ a {
     display: block;
 }
 
+.margin{
+    margin-bottom: 50px;
+}
+
 .center1 a,
 .center2 p,
 .right p {
@@ -609,6 +627,7 @@ a {
 .services .frame .card .text {
     width: 45%;
 }
+
 
 .services .frame .card .text ul li {
     color: #D7B56D;
@@ -881,7 +900,7 @@ a {
     }
 
     .teams .frame .card .lawyer .text {
-        width: 100%;
+        width: 100%;    
     }
 
     .teams .frame .card .lawyer {
@@ -1113,6 +1132,25 @@ a {
         margin-bottom: 0px;
     }
 
+    #down1 {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    
+    #down1 .text{
+        width: calc(100% - 55px);
+    }
+    
+    .margin{
+        margin: 0;
+    }
+
+    
+
+    #down1 .text p{
+        width: 100%;
+    }
+
     .tape {
         height: auto;
         padding: 60px 0;
@@ -1260,11 +1298,13 @@ a {
     }
 
     .footer .frame .left,
-    .footer .frame .center2,
+    
     .footer .frame .center1,
     .footer .frame .right {
         margin-bottom: 40px;
     }
+
+    
 
     .footer .frame {
         justify-content: center;
@@ -1277,4 +1317,9 @@ a {
         margin-bottom: 0px;
         text-align: center;
     }
+}
+
+
+.ayir{
+    display: block;
 }
