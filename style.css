@@ -22,6 +22,10 @@ body {
     font-family: "Euclid Circular B Regular";
 }
 
+#adres p{
+    width: calc(100% - 70px);
+}
+
 .frame {
     width: 90%;
     margin: auto;
@@ -54,7 +58,7 @@ body {
 }
 
 .navbar .frame .logo img {
-    width: 80px;
+    width: 100px;
 }
 
 .navbar .frame .menu a {
